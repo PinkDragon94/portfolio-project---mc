@@ -1,22 +1,22 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Home from './pages/HomePage';
-import Login from './pages/LogInPage';
-import Register from './pages/RegisterPage';
-import AdminDashboard from './pages/AdminDashboard';
-import VendorDashboard from './pages/VendorDashboard';
-import AlumniDashboard from './pages/AlumniDashboard';
-import JobBoard from './pages/JobBoard';
-import JobDetails from './components/JobDetails';
-import AddEditJob from './components/AddEditJob';
-import Profile from './components/Profile';
-import NotFound from './components/NotFound';
-import NavBar from './components/NavBar';
-import ProtectedRoute from './components/ProtectedRoute';
-import Contact from './pages/Contact';
-import About from './pages/About';
-import GetInvolved from './pages/GetInvolved';
-import RegisterPage from './pages/RegisterPage';
+import Home from './src/pages/HomePage';
+import Login from './src/pages/LogInPage';
+import Register from './src/pages/RegisterPage';
+import AdminDashboard from './src/pages/AdminDashboard';
+import VendorDashboard from './src/pages/VendorDashboard';
+import AlumniDashboard from './src/pages/AlumniDashboard';
+import JobBoard from './src/pages/JobBoard';
+import JobDetails from './src/components/JobDetails';
+import AddEditJob from './src/components/AddEditJob';
+import Profile from './src/components/Profile';
+import NotFound from './src/components/NotFound';
+import NavBar from './src/components/NavBar';
+import ProtectedRoute from './src/components/ProtectedRoute';
+import Contact from './src/pages/Contact';
+import About from './src/pages/About';
+import GetInvolved from './src/pages/GetInvolved';
+import RegisterPage from './src/pages/RegisterPage';
 function App() {
   return (
     <div className="app">
