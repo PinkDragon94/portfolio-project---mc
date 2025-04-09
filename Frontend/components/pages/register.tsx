@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 import { useAuth } from '../hooks/useAuth';
-import { RegisterForm } from '../components/features/auth/RegisterForm/RegisterForm';
+import { RegisterForm } from '../features/auth/RegisterForm/RegisterForm';
 
 export default function Register() {
   const router = useRouter();

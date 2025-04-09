@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 import { useAuth } from '../hooks/useAuth';
-import { LoginForm } from '../components/features/auth/LoginForm/LoginForm';
+import { LoginForm } from '../features/auth/LoginForm/LoginForm';
 
 export default function Login() {
   const router = useRouter();
